@@ -13,7 +13,6 @@ library(reshape2)
 # Load data
 data <- read.csv("C:/Users/mohan/Downloads/2.ecommerce_transactions.csv")
 
-# View data
 head(data)
 
 # Histogram of Transaction Amounts
@@ -68,3 +67,4 @@ ggplot(monthly_sales, aes(x = Year, y = Month, fill = TotalSales)) +
     y = "Month"
   ) +
   theme_minimal()
+
